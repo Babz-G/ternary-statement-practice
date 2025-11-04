@@ -1,0 +1,42 @@
+.product-card {
+  font-family: sans-serif;
+  width: 300px;
+  padding: 1em;
+  border: 2px solid #333;
+  border-radius: 8px;
+  margin: 2em;
+  text-align: center;
+  background-color: #f9f9f9;
+}
+
+.product-name {
+  font-size: 1.5rem;
+  margin-bottom: 0.5em;
+}
+
+.stock-message {
+  font-weight: bold;
+  margin: 1em 0;
+}
+
+.in-stock {
+  color: #508d8a;
+}
+
+.out-of-stock {
+  color: #ee5c28;
+}
+
+.stock-button {
+  padding: 0.5em 1em;
+  font-size: 1rem;
+  border: none;
+  background-color: #517aa1;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.stock-button:hover {
+  opacity: 0.9;
+}
